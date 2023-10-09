@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+ }
+
+#titulo {
+    color: rgb(207, 108, 207);
+    border: 5 px solid magenta;
+    text-align: center;
+    margin-top: 10px;
+    padding: 15px;
+}
+.primera {
+    display: flex;
+    height: 75px;
+}
+.primera div {
+    flex-grow: 1;
+    border: 1px solid rgb(108, 11, 172);
+    text-align: center;
+}
+.segunda{
+    display: flex; 
+    height: 75px;
+}
+
+.segunda div {
+    flex-grow: 1;
+    border: 1px solid rgb(108, 11, 172);
+    text-align: center;
+}
+
+.tercera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+.tercera div{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid rgb(108, 11, 172);
+    border-radius: 5px;
+    background-color: rgb(190, 144, 233);
+    text-align: center;   
+}
